@@ -14,9 +14,11 @@ export default function page() {
 					<div>
 						<div className="flex items-center gap-5">
 							<BookIcon />
-							<h2 className="text-[3rem] font-semibold">Mission Statement</h2>
+							<h2 className="text-[2.5rem] font-medium md:text-[3rem] md:font-semibold">
+								Mission Statement
+							</h2>
 						</div>
-						<p className="text-[2rem] text-[#787878] mt-3">
+						<p className="text-2xl md:text-[2rem] text-[#787878] mt-3">
 							Our mission is to provide composite and qualitative legal service
 							on schedule by adopting an innovative and practical approach in
 							achieving and meeting our clients needs and interest comparable to
@@ -26,9 +28,11 @@ export default function page() {
 					<div>
 						<div className="flex items-center gap-5">
 							<BookIcon />
-							<h2 className="text-[3rem] font-semibold">Vision Statement</h2>
+							<h2 className="text-[2.5rem] font-medium md:text-[3rem] md:font-semibold">
+								Vision Statement
+							</h2>
 						</div>
-						<p className="text-[2rem] text-[#787878] mt-3">
+						<p className="text-2xl md:text-[2rem] text-[#787878] mt-3">
 							To be in a position to catch up with the ever changing and dynamic
 							legal and judicial system and grow an international firm with best
 							legal practice and professionalism and reflect them on local
@@ -38,9 +42,9 @@ export default function page() {
 					<div>
 						<div className="flex items-center gap-5">
 							<BookIcon />
-							<h2 className="text-[3rem] font-semibold">{`Firm's Practice`}</h2>
+							<h2 className="text-[2.5rem] font-medium md:text-[3rem] md:font-semibold">{`Firm's Practice`}</h2>
 						</div>
-						<p className="text-[2rem] text-[#787878] mt-3">
+						<p className="text-2xl md:text-[2rem] text-[#787878] mt-3">
 							Our firm’s practice is hinged on the competence and dedication of
 							our highly skilled and well-motivated team members, who continue
 							to work in synergy to accomplish the goals and vision of the firm.
@@ -53,9 +57,9 @@ export default function page() {
 					<div>
 						<div className="flex items-center gap-5">
 							<BookIcon />
-							<h2 className="text-[3rem] font-semibold">{`Firm's Culture`}</h2>
+							<h2 className="text-[2.5rem] font-medium md:text-[3rem] md:font-semibold">{`Firm's Culture`}</h2>
 						</div>
-						<p className="text-[2rem] text-[#787878] mt-3">
+						<p className="text-2xl md:text-[2rem] text-[#787878] mt-3">
 							The culture of the Firm is a unique mix, meshing a profound
 							respect for the law and high legal standards within a collegial
 							spirit, a recognized ability to finding creative solutions to
@@ -69,9 +73,9 @@ export default function page() {
 					<div>
 						<div className="flex items-center gap-5">
 							<BookIcon />
-							<h2 className="text-[3rem] font-semibold">{`Core Values`}</h2>
+							<h2 className="text-[2.5rem] font-medium md:text-[3rem] md:font-semibold">{`Core Values`}</h2>
 						</div>
-						<p className="text-[2rem] text-[#787878] mt-3">
+						<p className="text-2xl md:text-[2rem] text-[#787878] mt-3">
 							Excellence <br /> Versatility <br /> Efficiency <br /> Integrity
 						</p>
 					</div>
