@@ -89,6 +89,7 @@ export default function SideMenu() {
 								)}
 							</Link>
 							<Link
+								onClick={() => setOpen(false)}
 								href={"/practice-areas"}
 								className="text-[2.5rem]  text-white">
 								{isPracticeAreas ? (
