@@ -6,7 +6,7 @@ export default function page() {
 		<main>
 			<section className="bg-primary h-[300px] flex items-center justify-center">
 				<h1 className="text-[3rem] md:text-[4rem] font-bold text-white">
-					Our Attorneys
+					Our Attorneys 
 				</h1>
 			</section>
 			<section className="py-16 px-8 lg:px-[30px] xl:px-[100px]">
