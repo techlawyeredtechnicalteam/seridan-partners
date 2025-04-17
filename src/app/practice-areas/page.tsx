@@ -12,7 +12,7 @@ export default function page() {
 			<section className="py-12 flex items-center justify-center">
 				<div className="w-[95%] md:w-[90%] lg:w-[75%] xl:w-[60%] flex flex-col gap-y-12">
 					<div>
-						<div className="flex flex-col md:flex-row items-center gap-5">
+						<div className="flex flex-col md:flex-row md:items-center gap-5">
 							<BookIcon />
 							<h2 className="text-[2.5rem] font-medium md:text-[3rem] md:font-semibold">
 								Litigation and Arbitration
@@ -36,7 +36,7 @@ export default function page() {
 						</p>
 					</div>
 					<div>
-						<div className="flex flex-col md:flex-row items-center gap-5">
+						<div className="flex flex-col md:flex-row md:items-center gap-5">
 							<BookIcon />
 							<h2 className="text-[2.5rem] font-medium md:text-[3rem] md:font-semibold">
 								Property and Real Estate Practice
@@ -63,7 +63,7 @@ export default function page() {
 						</p>
 					</div>
 					<div>
-						<div className="flex flex-col md:flex-row items-center gap-5">
+						<div className="flex flex-col md:flex-row md:items-center gap-5">
 							<BookIcon />
 							<h2 className="text-[2.5rem] font-medium md:text-[3rem] md:font-semibold">
 								Corporate & Commercial Law Practice
@@ -82,7 +82,7 @@ export default function page() {
 						</p>
 					</div>
 					<div>
-						<div className="flex flex-col md:flex-row items-center gap-5">
+						<div className="flex flex-col md:flex-row md:items-center gap-5">
 							<BookIcon />
 							<h2 className="text-[2.5rem] font-medium md:text-[3rem] md:font-semibold">
 								Company Secretarial Services
@@ -100,7 +100,7 @@ export default function page() {
 						</p>
 					</div>
 					<div>
-						<div className="flex flex-col md:flex-row items-center gap-5">
+						<div className="flex flex-col md:flex-row md:items-center gap-5">
 							<BookIcon />
 							<h2 className="text-[2.5rem] font-medium md:text-[3rem] md:font-semibold">
 								Debt Recovery
@@ -120,7 +120,7 @@ export default function page() {
 						</p>
 					</div>
 					<div>
-						<div className="flex flex-col md:flex-row items-center gap-5">
+						<div className="flex flex-col md:flex-row md:items-center gap-5">
 							<BookIcon />
 							<h2 className="text-[2.5rem] font-medium md:text-[3rem] md:font-semibold">
 								Business Advisory & Regulatory Consultants
@@ -151,7 +151,7 @@ export default function page() {
 						</p>
 					</div>
 					<div>
-						<div className="flex flex-col md:flex-row items-center gap-5">
+						<div className="flex flex-col md:flex-row md:items-center gap-5">
 							<BookIcon />
 							<h2 className="text-[2.5rem] font-medium md:text-[3rem] md:font-semibold">
 								Employment & Labour Law
@@ -176,7 +176,7 @@ export default function page() {
 						</p>
 					</div>
 					<div>
-						<div className="flex flex-col md:flex-row items-center gap-5">
+						<div className="flex flex-col md:flex-row md:items-center gap-5">
 							<BookIcon />
 							<h2 className="text-[2.5rem] font-medium md:text-[3rem] md:font-semibold">
 								Intellectual Property
