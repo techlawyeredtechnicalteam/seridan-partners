@@ -31,3 +31,5 @@ export default function Hero() {
 		</div>
 	);
 }
+
+//bg-[url(/hero.png)] bg-no-repeat bg-fixed bg-center

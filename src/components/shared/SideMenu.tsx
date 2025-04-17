@@ -15,7 +15,7 @@ export default function SideMenu() {
 	const isPhilosophy = pathname === "/philosophy";
 	const isPracticeAreas = pathname === "/practice-areas";
 	const isAttorneys = pathname === "/attorneys";
-	const isJournal = pathname === "/journal";
+	const isJournal = pathname.startsWith("/journal");
 	const isConsultation = pathname === "/consultation";
 	const isCareers = pathname === "/careers";
 
@@ -52,7 +52,10 @@ export default function SideMenu() {
 							</button>
 						</div>
 						<div className="flex flex-col gap-y-10 px-5 mt-20">
-							<Link href={"/about"} className="text-[2.5rem]  text-white">
+							<Link
+								onClick={() => setOpen(false)}
+								href={"/"}
+								className="text-[2.5rem]  text-white">
 								{isHome ? (
 									<mark className="markerb bg-transparent text-secondary">
 										Home
@@ -61,7 +64,10 @@ export default function SideMenu() {
 									"Home"
 								)}
 							</Link>
-							<Link href={"/about"} className="text-[2.5rem]  text-white">
+							<Link
+								onClick={() => setOpen(false)}
+								href={"/philosophy"}
+								className="text-[2.5rem]  text-white">
 								{isPhilosophy ? (
 									<mark className="markerb bg-transparent text-secondary">
 										Philosophy
@@ -70,7 +76,10 @@ export default function SideMenu() {
 									"Philosophy"
 								)}
 							</Link>
-							<Link href={"/about"} className="text-[2.5rem]  text-white">
+							<Link
+								onClick={() => setOpen(false)}
+								href={"/attorneys"}
+								className="text-[2.5rem]  text-white">
 								{isAttorneys ? (
 									<mark className="markerb bg-transparent text-secondary">
 										Attorneys
@@ -79,7 +88,9 @@ export default function SideMenu() {
 									"Attorneys"
 								)}
 							</Link>
-							<Link href={"/about"} className="text-[2.5rem]  text-white">
+							<Link
+								href={"/practice-areas"}
+								className="text-[2.5rem]  text-white">
 								{isPracticeAreas ? (
 									<mark className="markerb bg-transparent text-secondary">
 										Practice Areas
@@ -88,7 +99,10 @@ export default function SideMenu() {
 									"Practice Areas"
 								)}
 							</Link>
-							<Link href={"/about"} className="text-[2.5rem]  text-white">
+							<Link
+								onClick={() => setOpen(false)}
+								href={"/journal"}
+								className="text-[2.5rem]  text-white">
 								{isJournal ? (
 									<mark className="markerb bg-transparent text-secondary">
 										Journal
@@ -97,7 +111,9 @@ export default function SideMenu() {
 									"Journal"
 								)}
 							</Link>
-							<Link href={"/about"} className="text-[2.5rem]  text-white">
+							<Link
+								href={"/consultation"}
+								className="text-[2.5rem]  text-white">
 								{isConsultation ? (
 									<mark className="markerb bg-transparent text-secondary">
 										Consultation
@@ -106,7 +122,10 @@ export default function SideMenu() {
 									"Consultation"
 								)}
 							</Link>
-							<Link href={"/about"} className="text-[2.5rem]  text-white">
+							<Link
+								onClick={() => setOpen(false)}
+								href={"/careers"}
+								className="text-[2.5rem]  text-white">
 								{isCareers ? (
 									<mark className="markerb bg-transparent text-secondary">
 										Careers

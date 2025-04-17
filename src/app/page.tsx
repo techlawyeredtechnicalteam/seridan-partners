@@ -1,6 +1,5 @@
 import AddressMap from "@/components/AddressMap";
 import AppButton from "@/components/shared/AppButton";
-import ArrowDown from "@/components/shared/icons/ArrowDown";
 import ChevronIcon from "@/components/shared/icons/ChevronIcon";
 import Diamond from "@/components/shared/icons/Diamond";
 import FacebookIcon from "@/components/shared/icons/FacebookIcon";
@@ -10,13 +9,12 @@ import Mission from "@/components/shared/icons/Mission";
 import TwitterXIcon from "@/components/shared/icons/TwitterXIcon";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import Hero from "@/components/shared/Hero";
 
 export default function Home() {
 	return (
 		<main>
-			<section className="bg-[url(/hero.png)] bg-no-repeat bg-fixed bg-center h-[50vh] md:h-[60vh] lg:h-[100vh] relative">
+			<section className="bg-[url(/hero.png)] bg-no-repeat lg:bg-fixed bg-center h-[50vh] md:h-[60vh] lg:h-[100vh] relative">
 				<Hero />
 			</section>
 			<section id="explore" className="py-24 bg-primary flex justify-center ">
