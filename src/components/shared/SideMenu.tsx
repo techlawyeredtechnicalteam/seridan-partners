@@ -112,6 +112,7 @@ export default function SideMenu() {
 								)}
 							</Link>
 							<Link
+								onClick={() => setOpen(false)}
 								href={"/consultation"}
 								className="text-[2.5rem]  text-white">
 								{isConsultation ? (

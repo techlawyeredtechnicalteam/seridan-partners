@@ -18,7 +18,7 @@ export default function page() {
 								Litigation and Arbitration
 							</h2>
 						</div>
-						<p className="text-2xl md:text-[2rem] text-[#787878] mt-3">
+						<p className="text-[1.7rem] md:text-[2rem] text-[#787878] mt-3">
 							Seridan Partners has a prolific and productive Litigation and
 							Arbitration department that offers clients practical and effective
 							legal solutions in today’s legal system. Our experienced attorneys
@@ -42,7 +42,7 @@ export default function page() {
 								Property and Real Estate Practice
 							</h2>
 						</div>
-						<p className="text-2xl md:text-[2rem] text-[#787878] mt-3">
+						<p className="text-[1.7rem] md:text-[2rem] text-[#787878] mt-3">
 							Property and Real Estate has become one of the fast-growing
 							healthy businesses in the 20th century. We understand that real
 							property issues arise in the context of corporate, commercial, and
@@ -69,7 +69,7 @@ export default function page() {
 								Corporate & Commercial Law Practice
 							</h2>
 						</div>
-						<p className="text-2xl md:text-[2rem] text-[#787878] mt-3">
+						<p className="text-[1.7rem] md:text-[2rem] text-[#787878] mt-3">
 							We act as corporate counsel to numerous clients ranging in size
 							from small start-up companies to large mature companies. We advise
 							these companies on diverse legal issues including corporate
@@ -88,7 +88,7 @@ export default function page() {
 								Company Secretarial Services
 							</h2>
 						</div>
-						<p className="text-2xl md:text-[2rem] text-[#787878] mt-3">
+						<p className="text-[1.7rem] md:text-[2rem] text-[#787878] mt-3">
 							We offer seamless service to enable clients to function
 							efficiently. We possess depth of experience and have earned a
 							superior reputation for the quality of service and advice rendered
@@ -106,7 +106,7 @@ export default function page() {
 								Debt Recovery
 							</h2>
 						</div>
-						<p className="text-2xl md:text-[2rem] text-[#787878] mt-3">
+						<p className="text-[1.7rem] md:text-[2rem] text-[#787878] mt-3">
 							Legal Vintage Attorneys engage in debt recovery on behalf of
 							private persons, banks, and financial institutions. We undertake
 							in recovery of debt and other related matters on behalf of our
@@ -126,7 +126,7 @@ export default function page() {
 								Business Advisory & Regulatory Consultants
 							</h2>
 						</div>
-						<p className="text-2xl md:text-[2rem] text-[#787878] mt-3">
+						<p className="text-[1.7rem] md:text-[2rem] text-[#787878] mt-3">
 							Seridan Partners provides general advisory services to clients in
 							the course of their business operations. The Firm also provides
 							clients services on Nigeria international laws, rules and
@@ -157,7 +157,7 @@ export default function page() {
 								Employment & Labour Law
 							</h2>
 						</div>
-						<p className="text-2xl md:text-[2rem] text-[#787878] mt-3">
+						<p className="text-[1.7rem] md:text-[2rem] text-[#787878] mt-3">
 							We have gained sturdy experience and competency in
 							employment/labour related issues both out of court and in court.
 							Our lawyers are well grounded with the laws governing the
@@ -182,7 +182,7 @@ export default function page() {
 								Intellectual Property
 							</h2>
 						</div>
-						<p className="text-2xl md:text-[2rem] text-[#787878] mt-3">
+						<p className="text-[1.7rem] md:text-[2rem] text-[#787878] mt-3">
 							Our expertise in this unique area entails the following:
 							Investigation of ownership of the intellectual property rights;
 							Drafting, reviewing, revising all legal documents relating to the

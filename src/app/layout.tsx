@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Host_Grotesk } from "next/font/google";
 import "./globals.css";
 import NextTopLoader from "nextjs-toploader";
@@ -13,6 +13,12 @@ const grotesk = Host_Grotesk({
 export const metadata: Metadata = {
 	title: "Seridan Partners",
 	description: "Seridan Partners Attorneys",
+};
+
+export const viewport: Viewport = {
+	width: "device-width",
+	maximumScale: 1,
+	initialScale: 1,
 };
 
 export default function RootLayout({
